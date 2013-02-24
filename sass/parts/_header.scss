@@ -10,21 +10,25 @@ $header-height: 30px;
 		position: relative;
 		padding-bottom: 10px;
 	}
+        
 	a{
-		color: $color-gray01;
+		color: $color-gray02;
 		@include transition(color 0.3s);
 		&:hover{
 			color: $color-main;
 		}
 	}
+        
 	h1{
 		float: left;
-		font-weight: bold;
-		font-size: 30px;
+                font-family: "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: 100;
+		font-size: 60px;
 		@media screen and (max-width: 1040px){
 			float: none;
 		}
 	}
+        
 }
 #main-nav{
 	float: left;
@@ -34,6 +38,7 @@ $header-height: 30px;
 		margin-left: 0;
 		margin-top: 15px;
 	}
+        
 	>ul{
 		@media screen and (max-width: 600px){
 			display: none;
