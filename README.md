@@ -1,17 +1,16 @@
-#Slash
+#Octoborg
 
-Slash is a minimal theme for Octopress.
+Octoborg is a minimal theme for Octopress, based on Slash.
 
 ##Install
 
 Type the code below in terminal.
 
 	$ cd octopress
-	$ git clone git://github.com/tommy351/Octopress-Theme-Slash.git .themes/slash
-	$ rake install['slash']
+	$ git clone git://github.com/joubertnel/octoborg.git .themes/octoborg
+	$ rake install[octoborg]
 	$ rake generate
 
-Have problems when installing with zsh? Try `rake install\['slash'\]` instead.
 
 ##Features
 
